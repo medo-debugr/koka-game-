@@ -1,0 +1,85 @@
+/* إعدادات عامة */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background: url('https://i.postimg.cc/FRSDYPgn/DALL-E-2024-11-28-15-20-48-A-creative-and-dynamic-background-design-for-a-two-player-game-The-sce.webp') no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+}
+
+/* تقسيم الشاشة نصفين */
+.game-container {
+  display: flex;
+  height: 80vh; /* ارتفاع الشاشة */
+}
+
+.player-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+/* تصميم الأزرار */
+button {
+  padding: 15px 30px;
+  font-size: 18px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  background: linear-gradient(45deg, #ff6f00, #ffcc00);
+  color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+button:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  transform: scale(1.05);
+}
+
+#winner {
+  font-size: 1.8rem;
+  margin: 20px 0;
+  color: #00ff00;
+}
+
+.hidden {
+  display: none;
+}
+
+/* زر إعادة اللعب */
+.reset-container {
+  margin: 20px 0;
+}
+
+#reset {
+  margin-top: 20px;
+  padding: 12px 25px;
+  font-size: 1rem;
+  background: linear-gradient(45deg, #007bff, #00c6ff);
+  color: white;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+#reset:hover {
+  background: linear-gradient(45deg, #0056b3, #008cff);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  transform: scale(1.1);
+}
